@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS</title>
+
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/controllers/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/src/styles/tsheaderwithbs.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var toggleButton = document.querySelector(".navbar-toggler");
+        var targetElement = document.querySelector("#center"); // Replace with your actual target element
+        var isHidden = false;
+    
+        // Function to toggle the visibility of the target element when the toggle button is clicked
+        function toggleOnButtonClick() {
+          if (isHidden) {
+            targetElement.style.display = "block"; // Show the element if it's currently hidden
+            isHidden = false;
+          } else {
+            targetElement.style.display = "none"; // Hide the element if it's currently visible
+            isHidden = true;
+          }
+        }
+    
+        // Add a click event listener to the toggle button
+        toggleButton.addEventListener("click", toggleOnButtonClick);
+      });
+    </script>
+    
+    
+    
+    
+    
+    
+  </head>
+  <body>
+    <header class="head">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button
+            
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand center" id="center" href="#"> Taylor Swift </a>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 head1">
+              <li class="nav-item">
+                <a class="nav-link" href="/Product.html">Merch</a>
+              </li>
+              <li class="nav-item" id="date">
+                <a class="nav-link" href="/Tour.html"
+                  >Dates<i class="bx bx-chevron-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter">Newsletter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#eratour">TS The Era Tour</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 head3" id="navbarNav2">
+              <li class="nav-item">
+                <a class="nav-link" href=""
+                  ><i class="bx bxl-facebook-circle"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="bx bxl-tiktok"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="bx bxl-youtube"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><i class="bx bxl-snapchat"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+        
+<div class="main">
+  <div class="img"><a href=""><img src="/assests/images/taylor 1989 ts  version.jpg" alt=""></a>
+     </div>
+
+  <div class="img"><a href=""><img src="/assests/images/ts version 1989 merch.jpg" alt=""></a></div>
+
+  <div class="img" id="eratour"><a href=""><img src="/assests/images/era tour cover.jpg" alt=""></a></div>
+
+  <div class="img"><a href=""><img src="/assests/images/Collection.jpg" alt=""></a></div>
+
+  <div class="img"><a href=""><video src="/assests/videos/midnight.mp4" alt="" muted autoplay loop ></a></div>
+
+  <div class="img"><a href=""><img src="/assests/images/editions.jpg" alt=""></a></div>
+
+</div>
+
+  <!-- <div class="img"><a href=""><img src="" alt=""></a></div> -->
+
+
+  <div class="newsletter" id="newsletter">
+
+      <div class="container">
+      <div class="nlhead"><h1>SIGN UP TO RECEIVE UPDATES</h1></div>
+
+      <div class="nlinput"><form action="">
+
+          <div class="nlinput-box">
+          <input type="text" placeholder="Email Address">
+          <input list="coption" name="country" id="country" placeholder="Country">
+          <datalist id="coption">
+              <option value="India"></option>
+              <option value="England"></option>
+              <option value="America"></option>
+              <option value="Canada"></option>
+              <option value="Norway"></option>
+              <option value="ukarine"></option>
+              <option value="Russia"></option>
+          </datalist>
+      </div>
+      <p>By providing this information, you are opting to receive emails from Taylor Nation with news, special offers, promotions and messages tailored to your interests, and you agree to the UMG/Taylor Nation privacy policy and</p>
+      <a href="">Terms of use</a>
+      <p>Fields marked with an asterisk (*) are required. International customers will receive an email to confirm your subscription to above mailing list.</p>
+      <button type="submit">submit</button>
+      </form>
+  </div>
+</div>
+      </div> 
+      <!-- <div class="sticky">
+          <div class="container-fluid stick"><p>Sign up to receive updates and special offers! <a href=""> <button ><a href="/src/templates/Subpages/Signup.html">Yes, i'm in <i class='bx bxs-envelope'></i></a></button></a></p></div>
+          <div id="x"><button><i class='bx bx-x'></i></button></div>
+       </div> -->
+      
+   
+       <footer class=" foot">
+         <hr>
+         <div class="container-fluid">
+
+
+  <div class=" footer">
+    <ul>
+               <li><a href="terms.html">TERMS OF USE</a></li>
+               <li><a href="">PRIVACY POLICY</a></li>
+               <li> <a href="">ACCESSIBILITY</a></li>
+               <li><a href="">CALIFORNIA OPTION:DO NOT SELL OR SHARE MY PERSONAL INFORMATION</a></li>
+               <li><a href="">CUSTOMER SUPPORT</a></li>
+               <li><a href="">CLEAN VERSION</a></li>
+           </ul>
+
+           <div class="footer2">
+              
+              <div><a href="">cookie choice</a></div>
+              <div><a id="rights" href="">&copy; 2023 Taylor Nation LLC</a></div></div>
+           
+      </div>
+    </div>
+    </footer>
+
+    <script src="/src/controllers/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>
