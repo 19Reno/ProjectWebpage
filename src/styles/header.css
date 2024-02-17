@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumorchid;
+  
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: mediumorchid;
+    min-width: 1200px;
+    margin: 0 auto; 
+    top: 0;
+    width: 100%;
+  
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+#Socialmedia {
+    display: flex;
+}
+
+#Socialmedia a {
+    margin-right: 10px;
+}

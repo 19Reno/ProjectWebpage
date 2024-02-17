@@ -1,0 +1,202 @@
+@font-face {
+  font-family: poppins;
+  src: url(/assests/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  src: url(/assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+  font-family: space;
+}
+@font-face {
+  font-family: Dance;
+  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: moon;
+  src: url(/assests/fonts/MoonDance-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  font-size: 1.1rem;
+}
+body {
+  /* background-image: url(/assests/images/background.webp); */
+}
+
+.head {
+  position: fixed;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  width: 100%;
+  min-width: 900px;
+  padding: 30px;
+  text-align: center;
+  /* background-image: linear-gradient(#abb8c3, #abb8c3, #abb8c3); */
+  /* background-image: linear-gradient(#dad3ca, #dad3ca, #dad3ca); */
+  background-image: url(/assests/images/grey\ background.jpg);
+  /* margin-top: -120px; */
+}
+.head1 {
+  min-width: 700px;
+}
+.head1 ul li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.head1 i {
+  position: absolute;
+  transform: translateY(22%);
+}
+
+.head1 ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: poppins;
+  padding: 19px;
+
+  transition: 300ms;
+}
+.head1 ul li:hover {
+  background-color: rgb(156, 136, 136);
+  color: rgb(26, 25, 25);
+  font-weight: 400;
+}
+#date {
+  background-color: #5d5d5e;
+}
+#date:hover {
+  background-color: rgb(139, 203, 255);
+  /* background-color: black; */
+}
+.head1 ul li:active {
+  background-color: #87878a;
+}
+#date:active {
+  background-color: #87878a;
+}
+.head2 h1 {
+  font-family: Dance;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+.head3 {
+  min-width: 500px;
+}
+
+.head3 ul li {
+  display: inline-block;
+  padding: 5px 15px 10px 10px;
+}
+.head3 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.head3 ul li a:hover {
+  color: gray;
+}
+.head3 ul li a i {
+  font-size: 2.5rem;
+}
+video {
+  position: relative;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 140vh;
+  min-width: 100vw;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: -100px;
+}
+.main {
+  padding: 80px 60px;
+  box-shadow: 0 0 20px 2px black;
+  backdrop-filter: blur(20px);
+  padding-bottom: 20px;
+}
+.content {
+  padding: 20px;
+  margin: 10px;
+  margin-top: -50px;
+  max-width: 600px;
+}
+.content h1,
+p,
+h5 {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.content p {
+  color: red;
+}
+.register label input {
+  border-color: white;
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+}
+button {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 10px;
+
+  width: 570px;
+  background-image: url(/assests/images/grey\ background.jpg);
+  cursor: pointer;
+}
+button a {
+  color: inherit;
+  text-decoration: none;
+}
+button:active {
+  opacity: 40%;
+}
+.foot {
+  width: 100%;
+  background-image: url(/assests/images/grey\ background.jpg);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+.footer ul li {
+  padding-top: 70px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.footer {
+  min-width: 1600px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(148, 36, 92);
+  font-size: larger;
+  font-family: space;
+}
+.footer2 div {
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

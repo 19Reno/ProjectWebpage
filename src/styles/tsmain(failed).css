@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: orchid;
+}
+
+.nav{
+    display: inline;  
+}
+
+.nav ul{
+    display: inline;
+}
+
+.nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+   padding-top: 30px;
+   padding-left: 15px;
+   padding-right: 2px;
+   font-size: larger;
+    
+   
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+h1{
+    display: inline;
+    margin-left: 350px;
+    
+}
+#Socialmedia{
+    display: inline;
+    
+    
+}
+
+#Socialmedia ul{
+    
+    display: inline;
+    padding-top: 50px;
+    margin-left: 450px;
+    
+}
+#Socialmedia ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 50px;
+     
+   
+}
+#Socialmedia ul li a{
+
+    text-decoration: none;
+}
+header{
+    padding: 60px;
+    margin-top: -200px;
+    background-color: mediumorchid;
+    position:fixed;
+    width: 100%;
+    min-width:2000px ;
+    
+     animation-name: slideleft;
+    animation-duration: 2s;
+}
+
+.nav ul li a:hover{
+    color: aqua;
+}
+.ts1{
+    text-align: center;
+}
+
+.ts1 h1{
+ margin-left: 650px;
+   
+}
+
+.main{
+    margin-top: 200px;
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+
+@keyframes slideleft{
+    from{transform: translateX(300%);}
+}
+@keyframes slideright{
+  from{transform: translateY(400%);}
+}
+     
+
+
+

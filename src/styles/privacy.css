@@ -1,0 +1,141 @@
+@font-face {
+  src: url(/assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+  font-family: space;
+}
+@font-face {
+  font-family: Dance;
+  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: moon;
+  src: url(/assests/fonts/MoonDance-Regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(/assests/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "moon", "dance", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.head {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  width: 100%;
+  min-width: 900px;
+  padding: 30px;
+  text-align: center;
+  /* background-image: linear-gradient(#abb8c3, #abb8c3, #abb8c3); */
+  /* background-image: linear-gradient(#dad3ca, #dad3ca, #dad3ca); */
+  background-image: url(/assests/images/grey\ background.jpg);
+  margin-top: -150px;
+}
+.head1 {
+  min-width: 750px;
+}
+.head1 ul li {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+.head1 i {
+  position: absolute;
+  transform: translateY(22%);
+}
+
+.head1 ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: poppins;
+  padding: 19px;
+
+  transition: 300ms;
+}
+.head1 ul li:hover {
+  background-color: rgb(156, 136, 136);
+  color: rgb(26, 25, 25);
+  font-weight: 400;
+}
+#date {
+  background-color: #5d5d5e;
+}
+#date:hover {
+  background-color: rgb(139, 203, 255);
+}
+.head1 ul li:active {
+  background-color: #87878a;
+}
+#date:active {
+  background-color: #87878a;
+}
+.head2 h1 {
+  font-family: Dance;
+}
+
+.head3 {
+  width: 100%;
+  min-width: 600px;
+}
+
+.head3 ul li {
+  display: inline-block;
+  padding: 5px 10px 10px 10px;
+  font-size: 2.5rem;
+}
+.head3 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.head3 ul li a:hover {
+  color: gray;
+}
+.main {
+  font-size: 1rem;
+
+  background-color: #d8d6cb;
+  margin-top: 150px;
+}
+.main {
+  font-family: poppins;
+  padding-top: 40px;
+}
+.foot {
+  width: 100%;
+  background-image: url(/assests/images/background.webp);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-align: center;
+}
+.footer ul li {
+  padding-top: 70px;
+  display: inline-block;
+  margin-left: 50px;
+  font-family: poppins;
+}
+
+.footer {
+  min-width: 1600px;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(148, 36, 92);
+  font-size: x-large;
+}
+.footer2 div {
+  margin-top: 50px;
+  padding: 20px;
+  font-family: poppins;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

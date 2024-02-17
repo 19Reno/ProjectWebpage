@@ -1,0 +1,95 @@
+@font-face {
+  font-family: dance;
+  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(/assests/fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  color: #000000;
+  padding: 20px;
+  background-image: url(/assests/images/grey\ background.jpg);
+}
+
+header h1 {
+  font-size: 36px;
+  font-family: dance;
+}
+
+header p {
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+  background-image: url(/assests/images);
+  background-image: linear-gradient(#222945, #303654, #303654);
+}
+
+.ticket-options {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+
+.ticket {
+  width: 200px;
+  background-color: #868686;
+  border: 1px solid #636363;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.ticket h3 {
+  font-size: 24px;
+}
+
+.ticket p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.book-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #000000;
+  padding: 20px;
+  background-image: url(/assests/images/grey\ background.jpg);
+}

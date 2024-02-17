@@ -1,0 +1,242 @@
+@font-face {
+  font-family: space;
+  src: url(/assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: dance;
+  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: caveat;
+  src: url(/assests/fonts/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: poppins ;
+  src: url(/assests/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: space;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-image: url(/assests/images/background.webp);
+  background-attachment: fixed;
+}
+#top {
+  margin-top: -25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(70, 66, 66);
+}
+#top h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: dance;
+}
+#icon {
+  float: right;
+  margin-top: -60px;
+  margin-right: 50px;
+}
+#icon i {
+  padding: 20px;
+}
+#icon a {
+  color: black;
+}
+#search {
+  position: relative;
+  float: left;
+  margin-top: -60px;
+  margin-right: 50px;
+  margin-left: 80px;
+}
+#search i {
+  position: absolute;
+  margin-left: 30px;
+}
+
+#search label input {
+  text-align: center;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  color: #abb8c3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#icon a:hover {
+  font-size: 20px;
+}
+.snav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+.snav {
+  margin-top: -25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(104, 93, 93);
+  text-align: center;
+}
+.snav h2 {
+  padding-top: 20px;
+}
+.cover{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+.item {
+  margin-top: 10%;
+  height: 560px;
+  width: 70%;
+  background-color: lightslategray;
+  text-align: center;
+  box-shadow: 2px 4px 2px;
+  min-width: 380px;
+  max-width: 500px;
+  min-height: 370px;
+  transition: 300ms;
+}
+.item img {
+  max-height: 350px;
+  min-width: 300px;
+  max-width: 350px;
+}
+.item a {
+  text-decoration: none;
+  color: black;
+}
+.item p{
+  font-size: 1.2rem !important;
+  font-family: poppins;
+}
+.item button {
+  /* background-color: lightgreen; */
+  background-image: url(/assests/images/grey\ background.jpg);
+ min-height: 50px;
+  width: 60%;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: poppins;
+
+  transition: 200ms;
+}
+.item button:hover {
+  font-weight: 600;
+  font-size: larger;
+  width: 70%;
+}
+.item ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+.item p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  font-size: 1em;
+}
+
+.item:hover {
+  background-color: rgb(149, 122, 214);
+  box-shadow: 0 7cap 8cap 0;
+}
+.item:active {
+  opacity: 85%;
+}
+.albumshop{
+  margin-top:100px ;
+
+}
+.alhead h1{
+height: 150px;
+/* background-color: #abb8c3; */
+padding: 50px;
+font-family: poppins;
+font-size: 2.5rem;
+background-color: rgb(70, 66, 66);
+}
+.container .imag2{
+  /* margin-top: -5px; */
+  transform: translateY(-2%);
+  mix-blend-mode: luminosity;
+  transition: 200ms;
+  
+
+}
+.container img{
+  mix-blend-mode:luminosity;
+  transition: 200ms;
+
+}
+
+.container .image img{
+  width: 100%;
+  background-color: black;
+}
+.container {
+  margin-top: -30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: -20px;
+}
+
+.container img:hover{
+  mix-blend-mode: normal;
+  transform: translateY(-5%);
+}
+.container .imag2:hover{
+  mix-blend-mode: normal;
+  transform: translateY(7%);
+  
+
+
+}
+
+.foot {
+  width: 100%
+  height: 28vh;
+  /* background-color: gray; */
+  min-width: 1900px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.foot hr{
+  margin-top: -28px;
+}
+.footer ul li {
+  padding-top: 70px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(148, 36, 92);
+  font-size: larger;
+}
+.footer2 div {
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
