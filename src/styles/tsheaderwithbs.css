@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: poppins;
-  src: url(assests/fonts/Poppins-Regular.ttf);
+  src: url(../../assests/fonts/Poppins-Regular.ttf);
 }
 * {
   margin: 0;
@@ -26,7 +26,7 @@
   transform: translateX(-50%);
 }
 .navbar {
-  background-image: url(assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
 }
 .center {
   font-family: Dance !important;
@@ -70,7 +70,7 @@ video {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(assests/images/lover\ background.jpg);
+  background-image: url(../../assests/images/lover\ background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
