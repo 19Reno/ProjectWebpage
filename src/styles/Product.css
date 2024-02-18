@@ -1,18 +1,18 @@
 @font-face {
   font-family: space;
-  src: url(/assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: dance;
-  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/DancingScript-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: caveat;
-  src: url(/assests/fonts/Caveat-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/Caveat-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: poppins ;
-  src: url(/assests/fonts/Poppins-Regular.ttf);
+  src: url(../../assests/fonts/Poppins-Regular.ttf);
 }
 
 * {
@@ -22,7 +22,7 @@
 }
 body {
   margin: 0;
-  background-image: url(/assests/images/background.webp);
+  background-image: url(../../assests/images/background.webp);
   background-attachment: fixed;
 }
 #top {
@@ -129,7 +129,7 @@ align-items: center;
 }
 .item button {
   /* background-color: lightgreen; */
-  background-image: url(/assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
  min-height: 50px;
   width: 60%;
   margin-top: 1rem;
