@@ -1,18 +1,18 @@
 @font-face {
   font-family: poppins;
-  src: url(/assests/fonts/Poppins-Regular.ttf);
+  src: url(../../assests/fonts/Poppins-Regular.ttf);
 }
 @font-face {
-  src: url(/assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/SpaceGrotesk-VariableFont_wght.ttf);
   font-family: space;
 }
 @font-face {
   font-family: Dance;
-  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/DancingScript-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: moon;
-  src: url(/assests/fonts/MoonDance-Regular.ttf);
+  src: url(../../assests/fonts/MoonDance-Regular.ttf);
 }
 * {
   margin: 0;
@@ -37,7 +37,7 @@ body {
   text-align: center;
   /* background-image: linear-gradient(#abb8c3, #abb8c3, #abb8c3); */
   /* background-image: linear-gradient(#dad3ca, #dad3ca, #dad3ca); */
-  background-image: url(/assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
   /* margin-top: -120px; */
 }
 .head1 {
@@ -160,7 +160,7 @@ button {
   padding: 10px;
 
   width: 570px;
-  background-image: url(/assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
   cursor: pointer;
 }
 button a {
@@ -172,7 +172,7 @@ button:active {
 }
 .foot {
   width: 100%;
-  background-image: url(/assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
   font-size: 0.8rem;
   font-weight: 600;
   text-align: center;
