@@ -1,11 +1,11 @@
 @font-face {
   font-family: poppins;
-  src: url(/assests/fonts/Poppins-Regular.ttf);
+  src: url(../../assests/fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: dance;
-  src: url(/assests/fonts/DancingScript-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/DancingScript-VariableFont_wght.ttf);
 }
 
 * {
