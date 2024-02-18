@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: Dance;
-  src: url(assests/fonts/DancingScript-VariableFont_wght.ttf);
+  src: url(../../assests/fonts/DancingScript-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: moon;
-  src: url(assests/fonts/MoonDance-Regular.ttf);
+  src: url(../../assests/fonts/MoonDance-Regular.ttf);
 }
 @font-face {
   font-family: poppins;
@@ -96,7 +96,7 @@ button {
 }
 .newsletter button {
   margin-top: 20px;
-  background-image: url(assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
   width: 200px;
   padding: 20px;
 }
@@ -107,7 +107,7 @@ button {
 
 .foot {
   width: 100%;
-  background-image: url(assests/images/background.webp);
+  background-image: url(../../assests/images/background.webp);
   font-size: 0.7rem;
   font-weight: 600;
   text-align: center;
@@ -143,7 +143,7 @@ footer a {
   align-items: center;
   position: sticky;
   bottom: 0;
-  background-image: url(assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
 }
 #x {
   position: absolute;
@@ -163,7 +163,7 @@ footer a {
   width: 100%;
   font-size: 2rem;
   padding-bottom: 40px;
-  background-image: url(assests/images/grey\ background.jpg);
+  background-image: url(../../assests/images/grey\ background.jpg);
 }
 .stick button {
   min-width: 10%;
